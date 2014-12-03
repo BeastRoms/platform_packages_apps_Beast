@@ -617,5 +617,14 @@
     <string name="quick_pulldown_right">Правый</string>
     <string name="quick_pulldown_always">Всегда</string>
 
+    <!--Smart pulldown-->
+    <string name="smart_pulldown_title">Умное открытие</string>
+    <string name="smart_pulldown_summary">Открывать быстрые настройки, если %1$s уведомлений</string>
+    <string name="smart_pulldown_none_summary">Открывать панель быстрых настроек, когда уведомления отсутствуют</string>
+    <string name="smart_pulldown_off">Выключено</string>
+    <string name="smart_pulldown_none">нет уведомлений</string>
+    <string name="smart_pulldown_dismissable">нет удаляемых уведомлений</string>
+    <string name="smart_pulldown_ongoing">нет постоянных уведомлений</string>
+
 </resources>
 

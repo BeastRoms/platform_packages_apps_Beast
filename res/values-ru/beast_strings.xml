@@ -607,6 +607,15 @@
     <string name="status_bar_toggle_brightness_summary">Регулировать яркость экрана движением пальца по строке состояния</string>
 	
     <string name="notification_light_settings">Индикация уведомлений</string>
-	
+
+    <!--Quick pull down-->
+    <string name="quick_pulldown_title">Быстрое вытягивание</string>
+    <string name="quick_pulldown_summary">%1$s край строки состояния при опускании вниз открывает панель быстрых настроек</string>
+    <string name="quick_pulldown_summary_always">Всегда вытягивать быстрые настройки</string>
+    <string name="quick_pulldown_off">Выключить</string>
+    <string name="quick_pulldown_left">Левый</string>
+    <string name="quick_pulldown_right">Правый</string>
+    <string name="quick_pulldown_always">Всегда</string>
+
 </resources>
 

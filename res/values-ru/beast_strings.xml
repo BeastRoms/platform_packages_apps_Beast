@@ -626,5 +626,9 @@
     <string name="smart_pulldown_dismissable">нет удаляемых уведомлений</string>
     <string name="smart_pulldown_ongoing">нет постоянных уведомлений</string>
 
+    <!-- Toast app icon -->
+    <string name="toast_icon_title">Иконка всплывающего уведомления</string>
+    <string name="toast_icon_summary">Отобразить иконку приложения на всплывающем уведомлении</string>
+
 </resources>
 

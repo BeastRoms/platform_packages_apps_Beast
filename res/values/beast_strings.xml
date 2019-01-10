@@ -614,7 +614,7 @@
     <string name="notification_light_settings">Notifications light</string>
 
     <!-- App Ops -->
-    <string name="app_ops_category">App Ops</string>
+    <string name="app_ops_category">Privacy Guard</string>
     <string name="app_ops_settings_summary">Control apps permissions</string>
 
 </resources>

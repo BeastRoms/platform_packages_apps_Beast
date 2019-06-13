@@ -585,5 +585,9 @@
     <string name="lock_screen_weather_title">Информация о погоде</string>
     <string name="lock_screen_weather_summary">Отображать текущую информацию о погоде на экране блокировки</string>
 	
+    <!-- Charging animation -->
+    <string name="charging_animation_title">Анимация зарядки</string>
+    <string name="charging_animation_summary">Отображать анамацию зарядки при подключении кабеля.</string>
+	
 </resources>
 

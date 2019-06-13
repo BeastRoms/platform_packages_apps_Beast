@@ -594,5 +594,9 @@
     <string name="lock_screen_weather_title">Show Weather</string>
     <string name="lock_screen_weather_summary">Display the current weather info on lockscreen</string>
 	
+    <!-- Charging animation -->
+    <string name="charging_animation_title">Charging animation</string>
+    <string name="charging_animation_summary">Display an animation when the device is plugged in</string>
+	
 </resources>
 

@@ -593,5 +593,8 @@
     <string name="wakeup_when_plugged_unplugged_title">Включать экран</string>
     <string name="wakeup_when_plugged_unplugged_summary">Включать экран при подключении/отключени кабеля.</string>
 	
+    <string name="usb_default_config_title">Конфигурация USB</string>
+    <string name="usb_default_config_summary">Выберите режим по умолчанию, при подключении кабеля USB</string>
+	
 </resources>
 

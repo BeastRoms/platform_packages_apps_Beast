@@ -589,5 +589,9 @@
     <string name="charging_animation_title">Анимация зарядки</string>
     <string name="charging_animation_summary">Отображать анамацию зарядки при подключении кабеля.</string>
 	
+    <!-- Wakeup options -->
+    <string name="wakeup_when_plugged_unplugged_title">Включать экран</string>
+    <string name="wakeup_when_plugged_unplugged_summary">Включать экран при подключении/отключени кабеля.</string>
+	
 </resources>
 

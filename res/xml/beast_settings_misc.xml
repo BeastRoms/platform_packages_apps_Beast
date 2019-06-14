@@ -42,18 +42,21 @@
 		
     <Preference
         android:key="default_usb_configuration"
+        android:icon="@drawable/ic_usb"
         android:fragment="com.android.settings.connecteddevice.usb.UsbDefaultFragment"
         android:title="@string/usb_default_config_title"
         android:summary="@string/usb_default_config_summary"/>
 		
     <com.beast.settings.preferences.GlobalSettingSwitchPreference
         android:key="wake_when_plugged_or_unplugged"
+        android:icon="@drawable/ic_wakeup_charge"
         android:title="@string/wakeup_when_plugged_unplugged_title"
         android:summary="@string/wakeup_when_plugged_unplugged_summary"
         android:defaultValue="true" />
 		
     <com.beast.settings.preferences.SystemSettingSwitchPreference
         android:key="charging_animation"
+        android:icon="@drawable/ic_anim_charge"
         android:title="@string/charging_animation_title"
         android:summary="@string/charging_animation_summary"
         android:defaultValue="true" />

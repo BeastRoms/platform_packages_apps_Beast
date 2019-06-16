@@ -596,5 +596,12 @@
     <string name="usb_default_config_title">Конфигурация USB</string>
     <string name="usb_default_config_summary">Выберите режим по умолчанию, при подключении кабеля USB</string>
 	
+    <!-- Recents icon pack -->
+    <string name="recents_icon_pack_title">Пакет иконок</string>
+    <string name="recents_icon_pack_summary">Применить пользовательский набор иконок для панели недавних приложений</string>
+    <string name="no_iconpacks_summary">Не установлено ни одного набора</string>
+    <string name="dialog_pick_iconpack_title">Выберите набор иконок</string>
+    <string name="default_iconpack_title">Иконки по умолчанию</string>
+	
 </resources>
 

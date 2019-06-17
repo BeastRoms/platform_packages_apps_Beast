@@ -301,20 +301,6 @@
 	
     <string name="hardware_keys_disable_title">Отключить кнопки</string>
 	
-    <!-- Hardware keys -->
-    <string name="hardware_keys_category">Аппаратные кнопки</string>
-    <!-- Buttons backlight timeout -->
-    <string name="backlight_timeout_title">Таймаут подсветки кнопок</string>
-    <string name="backlight_timeout_on">Включена постоянно</string>
-    <string name="backlight_timeout_3s">3 сек</string>
-    <string name="backlight_timeout_default">5 сек (по умолчанию)</string>
-    <string name="backlight_timeout_10s">10 сек</string>
-    <string name="backlight_timeout_15s">15 сек</string>
-    <string name="backlight_timeout_20s">20 сек</string>
-    <string name="backlight_timeout_30s">30 сек</string>
-    <!-- Enable keys backlight-->
-    <string name="button_brightness_title">Подсветка</string>
-	
     <!-- Wakelock blocker -->
     <string name="wakelock_blocker_title">Блокировка *wakelocks*</string>
     <string name="wakelock_blocker_summary">Заблокировать *wakelocks* системы</string>
@@ -602,6 +588,19 @@
     <string name="no_iconpacks_summary">Не установлено ни одного набора</string>
     <string name="dialog_pick_iconpack_title">Выберите набор иконок</string>
     <string name="default_iconpack_title">Иконки по умолчанию</string>
+	
+    <!-- Button brightness -->
+    <string name="button_backlight_options_category">Подсветка кнопок</string>
+    <string name="button_backlight_enable_title">Включить подсветку</string>
+    <string name="button_backlight_title">Подсветка кнопок</string>
+    <string name="button_backlight_summary">Настройка включения и яркости</string>
+    <string name="button_backlight_on_touch_only_title">Подсветка по прикосновению к кнопкам</string>
+    <string name="button_backlight_on_touch_only_summary">Подсвечивать кнопки только при касании, а не всё время. Тайм-аут подсветки влияет на эту функцию.</string>
+    <string name="button_timeout_title">Время работы подсветки</string>
+    <string name="button_timeout_summary">Отклычено при значении \"0\"</string>
+    <string name="button_link_brightness">В соответствии с экраном</string>
+    <string name="button_link_brightness_summary">Использовать яркость экрана</string>
+    <string name="button_manual_brightness">Уровень яркости</string>
 	
 </resources>
 

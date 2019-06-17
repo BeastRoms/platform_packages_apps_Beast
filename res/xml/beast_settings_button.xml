@@ -18,29 +18,49 @@
         android:title="@string/button_title"
         xmlns:settings="http://schemas.android.com/apk/res/com.android.settings">
 		
-    <PreferenceCategory
-        android:key="hardware_keys"
-        android:title="@string/hardware_keys_category" >
-		
         <SwitchPreference
             android:key="hardware_keys_disable"
             android:title="@string/hardware_keys_disable_title" />
+			
+    <PreferenceCategory
+        android:key="button_backlight_options_category"
+        android:title="@string/button_backlight_options_category" >
 
-        <com.beast.settings.preferences.CustomSeekBarPreference
-            android:key="button_brightness"
-            android:title="@string/button_brightness_title"
+    <com.beast.settings.preferences.SystemSettingSwitchPreference
+            android:key="button_backlight_enable"
+            android:title="@string/button_backlight_enable_title"
+            android:defaultValue="true"/>
+
+    <com.beast.settings.preferences.SystemSettingSwitchPreference
+            android:key="custom_button_use_screen_brightness"
+            android:title="@string/button_link_brightness"
+            android:summary="@string/button_link_brightness_summary"
+            android:defaultValue="false"
+            android:dependency="button_backlight_enable"
+            android:disableDependentsState="true" />
+
+     <com.beast.settings.preferences.CustomSeekBarPreference
+            android:key="button_manual_brightness_new"
+            android:title="@string/button_manual_brightness"
             android:max="255"
-            settings:min="0"
-            settings:units=""
-            android:persistent="false" />
-
-        <ListPreference
-            android:dialogTitle="@string/backlight_timeout_title"
-            android:entries="@array/backlight_timeout_entries"
-            android:entryValues="@array/backlight_timeout_values"
-            android:key="backlight_timeout"
+            settings:min="1"
             android:persistent="false"
-            android:title="@string/backlight_timeout_title" />
+            android:dependency="custom_button_use_screen_brightness" />
+
+     <com.beast.settings.preferences.CustomSeekBarPreference
+            android:key="button_timeout"
+            android:title="@string/button_timeout_title"
+            android:max="30"
+            settings:min="0"
+            android:persistent="false"
+            android:dependency="button_backlight_enable" />
+
+    <com.beast.settings.preferences.SystemSettingSwitchPreference
+            android:key="button_backlight_on_touch_only"
+            android:title="@string/button_backlight_on_touch_only_title"
+            android:summary="@string/button_backlight_on_touch_only_summary"
+            android:defaultValue="false"
+            android:dependency="button_backlight_enable" />
 
     </PreferenceCategory>
 		

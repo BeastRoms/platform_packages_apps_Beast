@@ -93,14 +93,14 @@ public class ButtonSettings extends ActionFragment implements
                 KEY_BUTTON_MANUAL_BRIGHTNESS_NEW);
         final int customButtonBrightness = getResources().getInteger(
                 com.android.internal.R.integer.config_button_brightness_default);
-        final int currentBrightness = Settings.System.getInt(resolver,
+        final int currentBrightness = Settings.System.getInt(getContentResolver(),
                 Settings.System.CUSTOM_BUTTON_BRIGHTNESS, customButtonBrightness);
         PowerManager pm = (PowerManager)getActivity().getSystemService(Context.POWER_SERVICE);
         mManualButtonBrightness.setMax(pm.getMaximumScreenBrightnessSetting());
         mManualButtonBrightness.setValue(currentBrightness);
         mManualButtonBrightness.setOnPreferenceChangeListener(this);
          mButtonTimoutBar = (CustomSeekBarPreference) findPreference(KEY_BUTTON_TIMEOUT);
-        int currentTimeout = Settings.System.getInt(resolver,
+        int currentTimeout = Settings.System.getInt(getContentResolver(),
                 Settings.System.BUTTON_BACKLIGHT_TIMEOUT, 0);
         mButtonTimoutBar.setValue(currentTimeout);
         mButtonTimoutBar.setOnPreferenceChangeListener(this);

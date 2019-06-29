@@ -607,6 +607,11 @@
     <string name="button_backlight_on_touch_only_summary">Button backlight will only appear when buttons are pressed rather than on all the time. Timeout still impacts this feature.</string>
 
     <string name="lockscreen_qs_disabled_title">Disable quick settings when locked</string>
-    <string name="lockscreen_qs_disabled_summary">Disable expanding quick settings on secure lock screens</string>	
+    <string name="lockscreen_qs_disabled_summary">Disable expanding quick settings on secure lock screens</string>
+	
+    <!-- Brightness control -->
+    <string name="status_bar_toggle_brightness">Brightness control</string>
+    <string name="status_bar_toggle_brightness_summary">Adjust brightness by sliding across the status bar</string>
+	
 </resources>
 

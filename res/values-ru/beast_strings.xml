@@ -605,5 +605,8 @@
     <string name="lockscreen_qs_disabled_title">Откл. на заблокированном экране</string>
     <string name="lockscreen_qs_disabled_summary">Запретить выдвигать панель на защищённом экране блокировки</string>
 	
+    <string name="status_bar_toggle_brightness">Управление яркостью</string>
+    <string name="status_bar_toggle_brightness_summary">Регулировать яркость экрана движением пальца по строке состояния</string>
+	
 </resources>
 

@@ -602,5 +602,8 @@
     <string name="button_link_brightness_summary">Использовать яркость экрана</string>
     <string name="button_manual_brightness">Уровень яркости</string>
 	
+    <string name="lockscreen_qs_disabled_title">Откл. на заблокированном экране</string>
+    <string name="lockscreen_qs_disabled_summary">Запретить выдвигать панель на защищённом экране блокировки</string>
+	
 </resources>
 

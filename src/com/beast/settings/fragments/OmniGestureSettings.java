@@ -45,9 +45,11 @@ public class OmniGestureSettings extends SettingsPreferenceFragment implements
     private static final String TAG = "OmniGestureSettings";
     private static final String KEY_SWIPE_LENGTH = "gesture_swipe_length";
     private static final String KEY_SWIPE_TIMEOUT = "gesture_swipe_timeout";
+    private static final String KEY_SWIPE_START = "gesture_swipe_start";
 
     private CustomSeekBarPreference mSwipeTriggerLength;
     private CustomSeekBarPreference mSwipeTriggerTimeout;
+    private CustomSeekBarPreference mSwipeTriggerStart;
 
     @Override
     public int getMetricsCategory() {
@@ -74,7 +76,14 @@ public class OmniGestureSettings extends SettingsPreferenceFragment implements
                 Settings.System.OMNI_BOTTOM_GESTURE_TRIGGER_TIMEOUT,
                 getResources().getInteger(com.android.internal.R.integer.nav_gesture_swipe_timout));
         mSwipeTriggerTimeout.setValue(value);
-        mSwipeTriggerTimeout.setOnPreferenceChangeListener(this);		
+        mSwipeTriggerTimeout.setOnPreferenceChangeListener(this);
+
+        mSwipeTriggerStart = (CustomSeekBarPreference) findPreference(KEY_SWIPE_START);
+        value = Settings.System.getInt(getContentResolver(),
+                Settings.System.OMNI_BOTTOM_GESTURE_SWIPE_START,
+                getResources().getInteger(com.android.internal.R.integer.nav_gesture_swipe_start));
+        mSwipeTriggerStart.setValue(value);
+        mSwipeTriggerStart.setOnPreferenceChangeListener(this);
     }
 
     @Override
@@ -94,6 +103,10 @@ public class OmniGestureSettings extends SettingsPreferenceFragment implements
             int value = (Integer) objValue;
             Settings.System.putInt(getContentResolver(),
                     Settings.System.OMNI_BOTTOM_GESTURE_TRIGGER_TIMEOUT, value);
+        } else if (preference == mSwipeTriggerStart) {
+            int value = (Integer) objValue;
+            Settings.System.putInt(getContentResolver(),
+                    Settings.System.OMNI_BOTTOM_GESTURE_SWIPE_START, value);
         } else {
             return false;
         }

@@ -610,5 +610,7 @@
     <string name="status_bar_toggle_brightness">Управление яркостью</string>
     <string name="status_bar_toggle_brightness_summary">Регулировать яркость экрана движением пальца по строке состояния</string>
 	
+    <string name="notification_light_settings">Индикация уведомлений</string>
+	
 </resources>
 

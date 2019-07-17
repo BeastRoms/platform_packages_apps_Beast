@@ -215,14 +215,6 @@ public class ColorPickerPreference extends Preference implements
     }
 
     @Override
-    public void setEnabled(boolean enabled) {
-        super.setEnabled(enabled);
-        if (mEnabled != enabled) {
-            mEnabled = enabled;
-        }
-    }
-
-    @Override
     public void onColorChanged(int color) {
         if (isPersistent()) {
             persistInt(color);

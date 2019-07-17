@@ -276,7 +276,7 @@ public class ColorPickerPreference extends Preference implements
     public void setAlphaSliderEnabled(boolean enable) {
         mAlphaSliderEnabled = enable;
     }
-
+	
     /**
      * For custom purposes. Not used by ColorPickerPreferrence
      *

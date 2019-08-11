@@ -12,7 +12,7 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <!-- App Title -->
-    <string name="beast_settings_title">drink</string>
+    <string name="beast_settings_title">Cài đặt nâng cao</string>
 
     <!-- Categories -->
     <string name="animations_title">Hoạt ảnh</string>
@@ -67,16 +67,16 @@
     <string name="clock_date_display">Ngày</string>
     <string name="clock_date_display_summary">Hiển thị ngày tùy chỉnh trước đồng hồ</string>
     <string name="clock_date_display_none">Không hiện</string>
-    <string name="clock_date_display_small">Small font size</string>
-    <string name="clock_date_display_normal">Normal font size</string>
-    <string name="clock_date_style">Date style</string>
+    <string name="clock_date_display_small">Cỡ chữ nhỏ</string>
+    <string name="clock_date_display_normal">Cỡ chữ bình thường</string>
+    <string name="clock_date_style">Kiểu ngày tháng</string>
     <string name="clock_date_style_normal">Bình thường</string>
-    <string name="clock_date_style_lowercase">Lowercase</string>
-    <string name="clock_date_style_uppercase">Uppercase</string>
-    <string name="clock_date_format_custom">Custom java format</string>
-    <string name="clock_date_format">Date format</string>
-    <string name="clock_date_string_edittext_title">Must be in DateFormat eg. MM/dd/yy</string>
-    <string name="clock_date_string_edittext_summary">Enter string</string>
+    <string name="clock_date_style_lowercase">Chữ thường</string>
+    <string name="clock_date_style_uppercase">Chữ hoa</string>
+    <string name="clock_date_format_custom">Định dạng java tùy chỉnh</string>
+    <string name="clock_date_format">Định dạng ngày tháng</string>
+    <string name="clock_date_string_edittext_title">Phải có trong DateFormat vd. MM/dd/yy</string>
+    <string name="clock_date_string_edittext_summary">Nhập chuỗi</string>
 
     <!-- Blink flashlight for incoming calls -->
     <string name="flashlight_on_call_title">Nháy đèn Flash khi có cuộc gọi đến</string>
@@ -93,10 +93,10 @@
     <string name="battery_light_allow_on_dnd_title">Đèn thông báo ở chế độ Không làm phiền</string>
     <string name="battery_light_low_blinking_title">Đèn thông báo nhấp nháy khi pin yếu</string>
     <string name="battery_light_cat">Màu của đèn thông báo khi sạc pin</string>
-    <string name="battery_light_low_color">Low battery</string>
-    <string name="battery_light_medium_color">Medium battery</string>
-    <string name="battery_light_full_color">Almost full battery</string>
-    <string name="battery_light_reallyfull_color">Full (100) battery</string>
+    <string name="battery_light_low_color">Pin yếu</string>
+    <string name="battery_light_medium_color">Pin trung bình</string>
+    <string name="battery_light_full_color">Pin gần đầy</string>
+    <string name="battery_light_reallyfull_color">Pin đầy</string>
 
     <!-- Heads up -->
     <string name="heads_up_notifications">Thông báo nổi</string>
@@ -114,7 +114,7 @@
 
     <!-- Heads up timeout -->
     <string name="heads_up_time_out_title">Thời gian hiển thị thông báo nổi</string>
-    <string name="heads_up_time_out_summary">Thông báo nổi sẽ hiện trong <xliff:g id="number">%d</xliff:g> giấy</string>
+    <string name="heads_up_time_out_summary">Thông báo nổi sẽ hiện trong <xliff:g id="number">%d</xliff:g> giây</string>
     <string name="heads_up_time_out_2sec">2 giây</string>
     <string name="heads_up_time_out_4sec">4 giây</string>
     <string name="heads_up_time_out_5sec">5 giây</string>
@@ -186,9 +186,9 @@
     <string name="powermenu_settings">Cài đặt</string>
     <string name="powermenu_lockdown">Khóa</string>
     <string name="powermenu_soundpanel">Bảng điều khiển âm thanh</string>
-    <string name="powermenu_users">Users</string>
-    <string name="powermenu_logout">Logout</string>
-    <string name="powermenu_torch">Flashlight</string>
+    <string name="powermenu_users">Người dùng</string>
+    <string name="powermenu_logout">Đăng xuất</string>
+    <string name="powermenu_torch">Đèn pin</string>
 
     <!-- NavBar Visibility -->
     <string name="navbar_visibility">Nút thanh điều hướng</string>
@@ -252,28 +252,28 @@
     <string name="torch_long_press_power_gesture_title">Đèn pin khi màn hình tắt</string>
     <string name="torch_long_press_power_gesture_desc">Nhấn giữ nút nguồn trong khi màn hình tắt để bật đèn pin</string>
     <string name="torch_long_press_power_timeout_title">Tự động tắt đèn pin</string>
-    <string name="torch_long_press_power_timeout_never">Never</string>
-    <string name="torch_long_press_power_timeout_1min">1 minute</string>
-    <string name="torch_long_press_power_timeout_2min">2 minutes</string>
-    <string name="torch_long_press_power_timeout_5min">5 minutes</string>
-    <string name="torch_long_press_power_timeout_10min">10 minutes</string>
+    <string name="torch_long_press_power_timeout_never">Không bao giờ</string>
+    <string name="torch_long_press_power_timeout_1min">1 phút</string>
+    <string name="torch_long_press_power_timeout_2min">2 phút</string>
+    <string name="torch_long_press_power_timeout_5min">5 phút</string>
+    <string name="torch_long_press_power_timeout_10min">10 phút</string>
 	
     <!-- Weather -->
-    <string name="weather_unit">Temperature unit</string>
+    <string name="weather_unit">Đơn vị nhiệt độ</string>
     <string name="weather_unit_metric" translatable="false">Celsius</string>
     <string name="weather_unit_imperial" translatable="false">Fahrenheit</string>
 	
     <!-- Audio Panel view  -->
-    <string name="audio_panel_view">Audio panel</string>
+    <string name="audio_panel_view">Bảng điều khiển âm thanh</string>
     <string name="audio_panel_view_media_title">Media</string>
-    <string name="audio_panel_view_ringer_title">Ring</string>
-    <string name="audio_panel_view_notification_title">Notification</string>
-    <string name="audio_panel_view_alarm_title">Alarm</string>
+    <string name="audio_panel_view_ringer_title">Nhạc chuông</string>
+    <string name="audio_panel_view_notification_title">Thông báo</string>
+    <string name="audio_panel_view_alarm_title">Báo thức</string>
     <string name="audio_panel_view_voice_title">Voice</string>
     <string name="audio_panel_view_bt_sco_title">Bluetooth</string>
 	
     <string name="recents_show_membar_title">Thanh bộ nhớ</string>
-    <string name="recents_show_membar_summary">Show a bar with the device\'s available memory</string>
+    <string name="recents_show_membar_summary">Hiển thị thanh với bộ nhớ khả dụng của thiết bị</string>
 	
    <!-- Buttons title -->
     <string name="volume_category">Volume Rocker</string>
@@ -330,7 +330,7 @@
     <string name="fp_unlock_keystore_summary">Mở khóa thiết bị bằng dấu vân tay sau khi khởi động lại mà không cần mã PIN/Password/Pattern\nLưu ý: bạn có thể tự chịu rủi ro!</string>
 	
     <!-- Statusbar Tuner -->
-    <string name="statusbar_items_title">Items thanh trạng thái</string>
+    <string name="statusbar_items_title">Biểu tượng thanh trạng thái</string>
 	
     <!-- Lockscreen icons -->
     <string name="lockscreen_tuner_title">Phím tắt màn hình khóa</string>
@@ -368,19 +368,19 @@
     <string name="lockscreen_visualizer_summary">Hiển thị music visualizer khi có sẵn</string>
 	
     <!-- Statusbar ticker -->
-    <string name="statusbar_notifi_cat">Ticker Thông báo</string>
-    <string name="status_bar_ticker_title">Ticker</string>
-    <string name="status_bar_show_ticker_title">Ticker</string>
+    <string name="statusbar_notifi_cat">Xem trước thông báo</string>
+    <string name="status_bar_ticker_title">Xem trước thông báo</string>
+    <string name="status_bar_show_ticker_title">Xem trước thông báo</string>
     <string name="status_bar_show_ticker_summary">Xem trước thông báo trên thanh trạng thái</string>
-    <string name="ticker_animation_mode_title">Hoạt ảnh Ticker</string>
+    <string name="ticker_animation_mode_title">Hoạt ảnh Xem trước thông báo</string>
     <string name="ticker_animation_mode_alpha_fade">Fade</string>
     <string name="ticker_animation_mode_scroll">Scroll</string>
-    <string name="ticker_tick_duration_title">Ticker duration</string>
+    <string name="ticker_tick_duration_title">Thời gian Xem trước thông báo</string>
 	
     <!-- Toast Animation -->
     <string name="toast_animation_title">Hoạt ảnh thông báo nhanh</string>
-    <string name="toast_none_animation">None</string>
-    <string name="toast_default_animation">Default</string>
+    <string name="toast_none_animation">Không</string>
+    <string name="toast_default_animation">Mặc định</string>
     <string name="toast_fade_animation">Fade</string>
     <string name="toast_SlideRight_animation">Slide right</string>
     <string name="toast_SlideLeft_animation">Slide left</string>
@@ -444,15 +444,15 @@
     <string name="disable_transition_animations_summary">Buộc vô hiệu hóa tất cả các chuyển đổi</string>
 	
     <!-- Option to enable/disable scrolling cache -->
-    <string name="pref_scrollingcache_title">Scrolling cache</string>
-    <string name="pref_scrollingcache_summary">Scrolling cache may improve scrolling performance at the cost of memory</string>
-    <string name="pref_scrollingcache_force_enable">Force enable</string>
-    <string name="pref_scrollingcache_default_enable">Default enable</string>
-    <string name="pref_scrollingcache_default_disable">Default disable</string>
-    <string name="pref_scrollingcache_force_disable">Force disable</string>
+    <string name="pref_scrollingcache_title">Bộ đệm cuộn</string>
+    <string name="pref_scrollingcache_summary">Bộ đệm cuộn có thể cải thiện hiệu suất cuộn với việc tiêu hao bộ nhớ</string>
+    <string name="pref_scrollingcache_force_enable">Buộc kích hoạt</string>
+    <string name="pref_scrollingcache_default_enable">Mặc định bật</string>
+    <string name="pref_scrollingcache_default_disable">Mặc định tắt</string>
+    <string name="pref_scrollingcache_force_disable">Buộc tắt</string>
 	
     <!-- Lock Widget -->
-    <string name="ls_widget" >Widget Styles</string>
+    <string name="ls_widget" >Kiểu Widget</string>
 
     <!-- Lock Widget Fonts -->
     <string name="lock_widget_font_stock">Normal (Default)</string>
@@ -475,27 +475,27 @@
     <string name="lock_widget_font_black_italic">Black Italic</string>
 
     <!-- Lock Clock Fonts -->
-    <string name="lock_clock_font_title">Clock font style</string> 
+    <string name="lock_clock_font_title">Kiểu phông chữ đồng hồ</string> 
 	
     <!-- Lock Date Fonts -->
-    <string name="lock_date_font_title">Date font style</string>
+    <string name="lock_date_font_title">Kiểu phông chữ ngày tháng</string>
 	
     <!-- Lock Clock & Date Size -->
-    <string name="lockdate_font_size_title">Date font size</string>
-    <string name="lockclock_font_size_title">Clock font size</string>
+    <string name="lockdate_font_size_title">Kích thước phông chữ ngày tháng</string>
+    <string name="lockclock_font_size_title">Kích thước phông chữ đồng hồ</string>
 	
     <string name="global_actions_onthego">OnTheGo</string>
 	
     <!-- Lockscreen items -->
-    <string name="lockscreen_hide_items_category">Ẩn item</string>
-    <string name="lockscreen_clock_title">Clock widget</string>
-    <string name="lockscreen_clock_summary">Hiển thị clock widget trên Màn hình khóa</string>
-    <string name="lockscreen_info_title">Item bên dưới đồng hồ</string>
+    <string name="lockscreen_hide_items_category">Ẩn biểu tượng</string>
+    <string name="lockscreen_clock_title">Widget clock</string>
+    <string name="lockscreen_clock_summary">Hiển thị widget đồng hồ trên Màn hình khóa</string>
+    <string name="lockscreen_info_title">Biểu tượng bên dưới đồng hồ</string>
     <string name="lockscreen_info_summary">Hiển thị ngày, thời tiết, báo thức trên màn hình khóa</string>
 	
     <!-- Lockscreen clock styles -->
-    <string name="lockscreen_clock_selection_title">Clock style</string>
-    <string name="lockscreen_clock_selection_digital">Default</string>
+    <string name="lockscreen_clock_selection_title">Kiểu đồng hồ</string>
+    <string name="lockscreen_clock_selection_digital">Mặc định</string>
     <string name="lockscreen_clock_selection_digital_bold">Digital (bold)</string>
     <string name="lockscreen_clock_selection_digital_accent">Digital (Accent)</string>
     <string name="lockscreen_clock_selection_digital_accent_min">Digital (Accent - Minutes)</string>
@@ -510,7 +510,7 @@
     <string name="lockscreen_clock_selection_dot">Analog (Dot)</string>
     <string name="lockscreen_clock_selection_spectrum">Analog (Spectrum)</string>
     <string name="lockscreen_clock_selection_sneeky">Analog (Sneeky)</string>
-    <string name="lockscreen_clock_selection_text">Android 10 Text Clock</string>
+    <string name="lockscreen_clock_selection_text">Android 10</string>
 	
     <!-- Screen off animation -->
     <string name="screen_off_animation_title">Hoạt ảnh tắt màn hình</string>
@@ -522,7 +522,7 @@
     <string name="screen_state_toggles_title">Đình chỉ hành động</string>
     <string name="screen_state_toggles_summary">Các hành động được thực hiện khi màn hình tắt</string>
     <string name="screen_state_toggles_enable_title">Bật</string>
-    <string name="screen_state_toggles_enable_summary">Actions will be executed on screen off. On screen on the previous state will be restored.</string>
+    <string name="screen_state_toggles_enable_summary">Các hành động sẽ được thực hiện khi màn hình tắt. Trạng thái trước trên màn hình sẽ được khôi phục.</string>
     <string name="screen_state_toggles_mobile_title">Mạng di động</string>
     <string name="screen_state_toggles_location_title">Vị trí</string>
     <string name="screen_state_toggles_twog">Chuyển sang 2G</string>
@@ -545,18 +545,18 @@
     <string name="use_old_mobiletype_summary">Hiển thị kiểu biểu tượng tín hiệu nhỏ được sử dụng từ Android KitKat</string>
 	
     <!-- Data Disabled Icon -->
-    <string name="data_disabled_icon_title">Show data disabled icon</string>
-    <string name="data_disabled_icon_summary">Display the cross next to statusbar when data is disabled</string>
+    <string name="data_disabled_icon_title">Hiển thị biểu tượng dữ liệu bị tắt</string>
+    <string name="data_disabled_icon_summary">Hiển thị chữ thập bên cạnh thanh trạng thái khi dữ liệu bị tắt</string>
 	
     <!-- Aggressive battery -->
-    <string name="aggressive_battery_title">Aggressive Battery</string>
-    <string name="aggressive_battery_warning_text">These are power saving features. They may interfere with services intended to run at idle, like navigation apps. You can whitelist these apps from being affected in the app battery settings.</string>
-    <string name="aggressive_idle_title">Aggressive Idle</string>
-    <string name="aggressive_idle_summary">Enter device idle more frequently and wake up less</string>
-    <string name="aggressive_standby_title">Aggressive Standby</string>
-    <string name="aggressive_standby_summary">Restrict apps from running the background</string>
-    <string name="aggressive_battery_saver_title">Auto-enable on battery saver </string>
-    <string name="aggressive_battery_saver_summary">Enable Aggressive Battery automatically when using battery saver</string>
+    <string name="aggressive_battery_title">Chế độ pin tối ưu</string>
+    <string name="aggressive_battery_warning_text">Đây là những tính năng tiết kiệm pin. Chúng có thể can thiệp vào các dịch vụ dự định chạy ở chế độ idle, như các ứng dụng điều hướng. Bạn có thể đưa danh sách trắng các ứng dụng này khỏi bị ảnh hưởng trong cài đặt pin của ứng dụng.</string>
+    <string name="aggressive_idle_title">Chế độ Idle tối ưu</string>
+    <string name="aggressive_idle_summary">Đưa thiết bị về chế độ idle thường xuyên hơn và thức dậy ít hơn</string>
+    <string name="aggressive_standby_title">Chế độ chờ tối ưu</string>
+    <string name="aggressive_standby_summary">Hạn chế các ứng dụng chạy nền</string>
+    <string name="aggressive_battery_saver_title">Tự động bật khi sử dụng trình tiết kiệm pin</string>
+    <string name="aggressive_battery_saver_summary">Tự động bật Chế độ pin tối ưu khi sử dụng trình tiết kiệm pin</string>
 	
     <!-- Lockscreen text clock align -->
     <string name="lockscreen_clock_align_title">Android 10</string>
@@ -590,21 +590,21 @@
     <string name="usb_default_config_summary">Chọn hành vi mặc định khi được kết nối với thiết bị qua USB</string>
 	
     <!-- Recents icon pack -->
-    <string name="recents_icon_pack_title">Icon Pack</string>
+    <string name="recents_icon_pack_title">Gói biểu tượng</string>
     <string name="recents_icon_pack_summary">Áp dụng gói biểu tượng tùy chỉnh cho bảng Gần đây</string>
     <string name="no_iconpacks_summary">Không có gói biểu tượng nào được cài đặt</string>
     <string name="dialog_pick_iconpack_title">Chọn gói biểu tượng</string>
     <string name="default_iconpack_title">Biểu tượng mặc định</string>
 	
     <!-- Button brightness -->
-    <string name="button_backlight_options_category">Backlight options</string>
-    <string name="button_backlight_enable_title">Allow button backlight</string>
-    <string name="button_link_brightness">Link to screen brightness</string>
-    <string name="button_link_brightness_summary">Button backlight brightness will adjust based on current screen brightness level</string>
-    <string name="button_manual_brightness">Brightness level</string>
+    <string name="button_backlight_options_category">Tùy chọn đèn nền</string>
+    <string name="button_backlight_enable_title">Cho phép đèn nền phím</string>
+    <string name="button_link_brightness">Liên kết với độ sáng màn hình</string>
+    <string name="button_link_brightness_summary">Độ sáng đèn nền của phím sẽ điều chỉnh dựa trên mức độ sáng màn hình hiện tại</string>
+    <string name="button_manual_brightness">Mức độ sáng</string>
     <string name="button_timeout_title">Backlight timeout</string>
-    <string name="button_backlight_on_touch_only_title">Button backlight touch</string>
-    <string name="button_backlight_on_touch_only_summary">Button backlight will only appear when buttons are pressed rather than on all the time. Timeout still impacts this feature.</string>
+    <string name="button_backlight_on_touch_only_title">Nút đèn nền cảm ứng</string>
+    <string name="button_backlight_on_touch_only_summary">Đèn nền phím sẽ chỉ xuất hiện khi nhấn chứ không phải lúc nào cũng được. Hết giờ vẫn tác động đến tính năng này.</string>
 
     <string name="lockscreen_qs_disabled_title">Tắt cài đặt nhanh khi bị khóa</string>
     <string name="lockscreen_qs_disabled_summary">Vô hiệu hóa mở rộng cài đặt nhanh trên Màn hình khóa an toàn</string>
@@ -614,4 +614,3 @@
     <string name="status_bar_toggle_brightness_summary">Điều chỉnh độ sáng bằng cách trượt trên Thanh trạng thái</string>
 	
 </resources>
-

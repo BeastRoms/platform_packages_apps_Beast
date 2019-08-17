@@ -608,6 +608,9 @@
 	
     <string name="notification_light_settings">Индикация уведомлений</string>
 
+    <!-- App Ops -->
+    <string name="app_ops_settings_summary">Управление правами доступа приложений</string>
+
     <!--Quick pull down-->
     <string name="quick_pulldown_title">Быстрое вытягивание</string>
     <string name="quick_pulldown_summary">%1$s край строки состояния при опускании вниз открывает панель быстрых настроек</string>
@@ -629,6 +632,10 @@
     <!-- Toast app icon -->
     <string name="toast_icon_title">Иконка всплывающего уведомления</string>
     <string name="toast_icon_summary">Отобразить иконку приложения на всплывающем уведомлении</string>
+
+    <!-- Battery fully charged -->
+    <string name="battery_fully_charged_notif_title">Уведомление после полной зарядки</string>
+    <string name="battery_fully_charged_notif_summary">Показывать уведомление после полной зарядки батареи</string>
 
 </resources>
 

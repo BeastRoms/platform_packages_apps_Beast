@@ -14,19 +14,32 @@
 <PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
 	android:title="@string/notifications_title"
     xmlns:settings="http://schemas.android.com/apk/res/com.android.settings">
-	
-         <com.beast.settings.preferences.SystemSettingSwitchPreference
-            android:key="vibration_on_charge_state_changed"
-            android:title="@string/vibration_on_charge_state_changed_title"
-            android:summary="@string/vibration_on_charge_state_changed_summary"
-            android:defaultValue="true" />
 
-        <!-- Flashlight on incoming calls -->
-        <ListPreference
-            android:key="flashlight_on_call"
-            android:title="@string/flashlight_on_call_title"
-            android:entries="@array/flashlight_on_call_entries"
-            android:entryValues="@array/flashlight_on_call_values" />
+    <com.beast.settings.preferences.SystemSettingSwitchPreference
+        android:key="battery_fully_charged_notif"
+        android:title="@string/battery_fully_charged_notif_title"
+        android:summary="@string/battery_fully_charged_notif_summary"
+        android:defaultValue="false" />
+
+    <com.beast.settings.preferences.SystemSettingSwitchPreference
+        android:key="vibration_on_charge_state_changed"
+        android:title="@string/vibration_on_charge_state_changed_title"
+        android:summary="@string/vibration_on_charge_state_changed_summary"
+        android:defaultValue="true" />
+
+    <!-- Toast app icon -->
+    <com.beast.settings.preferences.SystemSettingSwitchPreference
+        android:key="toast_icon"
+        android:title="@string/toast_icon_title"
+        android:summary="@string/toast_icon_summary"
+        android:defaultValue="false" />
+
+    <!-- Flashlight on incoming calls -->
+    <ListPreference
+        android:key="flashlight_on_call"
+        android:title="@string/flashlight_on_call_title"
+        android:entries="@array/flashlight_on_call_entries"
+        android:entryValues="@array/flashlight_on_call_values" />
 
     <!-- Heads up -->
     <Preference

@@ -607,6 +607,35 @@
     <string name="status_bar_toggle_brightness_summary">Регулировать яркость экрана движением пальца по строке состояния</string>
 	
     <string name="notification_light_settings">Индикация уведомлений</string>
-	
+
+    <!-- App Ops -->
+    <string name="app_ops_settings_summary">Управление правами доступа приложений</string>
+
+    <!--Quick pull down-->
+    <string name="quick_pulldown_title">Быстрое вытягивание</string>
+    <string name="quick_pulldown_summary">%1$s край строки состояния при опускании вниз открывает панель быстрых настроек</string>
+    <string name="quick_pulldown_summary_always">Всегда вытягивать быстрые настройки</string>
+    <string name="quick_pulldown_off">Выключить</string>
+    <string name="quick_pulldown_left">Левый</string>
+    <string name="quick_pulldown_right">Правый</string>
+    <string name="quick_pulldown_always">Всегда</string>
+
+    <!--Smart pulldown-->
+    <string name="smart_pulldown_title">Умное открытие</string>
+    <string name="smart_pulldown_summary">Открывать быстрые настройки, если %1$s уведомлений</string>
+    <string name="smart_pulldown_none_summary">Открывать панель быстрых настроек, когда уведомления отсутствуют</string>
+    <string name="smart_pulldown_off">Выключено</string>
+    <string name="smart_pulldown_none">нет уведомлений</string>
+    <string name="smart_pulldown_dismissable">нет удаляемых уведомлений</string>
+    <string name="smart_pulldown_ongoing">нет постоянных уведомлений</string>
+
+    <!-- Toast app icon -->
+    <string name="toast_icon_title">Иконка всплывающего уведомления</string>
+    <string name="toast_icon_summary">Отобразить иконку приложения на всплывающем уведомлении</string>
+
+    <!-- Battery fully charged -->
+    <string name="battery_fully_charged_notif_title">Уведомление после полной зарядки</string>
+    <string name="battery_fully_charged_notif_summary">Показывать уведомление после полной зарядки батареи</string>
+
 </resources>
 

@@ -39,7 +39,14 @@
         android:icon="@drawable/ic_alarm_blocker"
         android:fragment="com.beast.settings.fragments.AlarmBlocker"
         android:title="@string/alarm_blocker" />
-		
+
+    <Preference
+        android:key="privacy_guard_manager"
+        android:fragment="com.android.settings.privacyguard.PrivacyGuardManager"
+        android:icon="@drawable/ic_settings_appops"
+        android:title="@string/app_ops_category"
+        android:summary="@string/app_ops_settings_summary" />
+
     <Preference
         android:key="default_usb_configuration"
         android:icon="@drawable/ic_usb"
